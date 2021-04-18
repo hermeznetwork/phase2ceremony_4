@@ -311,7 +311,10 @@ If we convert this unix time in seconds to readable time, it is Wednesday, 26 Au
 
 The circuit hash must be:
 ````
-TODO
+ab79af62 13888d71 8e5748fb 5eb7a0c9
+76d45799 29f12c7e 207f0193 65936ed8
+45154b61 86e657f9 1785c5a6 820986b9
+6b2d296f 15fadbb4 05d2b67c 2a875f63
 ````
 
 If you want to check an intermediary circuit, Substitute _final by the intermediary response you want.
