@@ -365,18 +365,18 @@ You can see also the random beacon of the three circuits is:
 TODO
 ````
 
-This number is the drand round TODO which you can find [here](https://drand.cloudflare.com/public/TODO)
+This number is the drand round 824300 which you can find [here](https://drand.cloudflare.com/public/824300)
 
-The procedure was anaunced [here](https://etherscan.io/tx/TODO): on TODO
-And the beacon random wos generated on TODO
+The procedure was anaunced [here](https://etherscan.io/tx/0xb8534a5adb2c6e81623ad77b18e9c1107594f65290ee199549f786b7c368de27): on May 4th, 2021 21:37 UTC
+And the beacon random wos generated on May 4th, 2021 23:47 UTC
 
 To see that it was calculated that date,
 You can see the genesis drand [here](https://drand.cloudflare.com/info)
 
 The unix timestamp of the drand genesis time is: 1595431050
 The period is: 30
-So the generation time is: 1595431050 + TODO*30 = TODO
-If we convert this unix time in seconds to readable time, it is TODO
+So the generation time is: 1595431050 + 824700*30 = 1620172050
+If we convert this unix time in seconds to readable time, it is May 4th, 2021 23:47:30 UTC
 
 #### Make a public post.
 

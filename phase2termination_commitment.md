@@ -1,56 +1,55 @@
-# Hermez Network Phase2 ceremony finalization
+# Hermez Network Phase2 ceremony finalization (4th bootstrap)
 
 During the last weeks we have been running the phase2 of the Hermez Network trusted
-setup ceremony.
+setup ceremony (4th bootstrap).
 
 This phase2 was run on 3 circuits:
-* circuit_1912_32_256_64: Batch processor of 1912 Txs.
-* circuit_344_32_256_64: Batch processor of 344 Txs.
-* withdraw: Circuit used to withdraw funds.
+* circuit_2048_32_256_64_hez4: Batch processor of 2048 Txs.
+* circuit_400_32_256_64_hez4: Batch processor of 400 Txs.
+* withdraw_hez4: Circuit used to withdraw funds.
 
-This ceremony was run by 7 trusted individuals from the community:
+This ceremony was run by 6 trusted individuals from the community:
 
 * [jordi](https://keybase.io/jbaylina)
-* [kobigurk](https://keybase.io/kobigurk)
 * [eduadiez](https://keybase.io/eduadiez)
-* [thore1234](https://keybase.io/thore1234)
-* [josephc](https://keybase.io/cdili)
 * [weijie](https://keybase.io/contactkohweijie)
 * [jarradhope](https://keybase.io/jarradhope)
+* [kobigurk](https://keybase.io/kobigurk)
+* [jaszmin](https://keybase.io/jaszmin)
 
 After the contributions, the b2sum of the zkey files resulting from the last contributions are:
 
-#### b2sum circuit_1912_32_256_64_hez3_0007.zkey
+#### b2sum circuit_2048_32_256_64_hez4_0006.zkey
 ````
-3aceeb98 42ecc5d6 ff0ce9be 184f5b2e
-21182fbb e1ba642b f751d799 59d16a95
-D996f0d0 4e91b0d9 7606ccdf 557bfb37
-0263a05f 48d40932 d45f8b77 3a0e68e0
+77f74521 4607a805 d1720706 2822bd2d
+c7c6a673 52c12163 ba5da75c 5e0341bc
+5fd7b9d8 71834c80 cdc2ecfb 5cc86049
+05576f99 ffff26f9 8703f08c c8d87d3d
 ````
 
-#### circuit_344_32_256_64_hez3_0007.zkey
+#### circuit_400_32_256_64_hez3_0007.zkey
 ````
-63fcde7c 5b5a2ee2 abaec90f a02025ad
-Eb6559bd 5b318593 b4cec080 daf51996
-54ae6f00 0af6cd7e 9393d3a9 0e1a5bfb
-3e1d52b7 2a065d9d 65eb8e60 57dbf886
+c86842c3 0980b11b 0316d60e b1825910
+7251f978 24a23270 11cf058d af67c508
+9314ffb3 1e26ad06 8e62a873 ce1ffa3c
+f8f47b09 8f80d619 8c5d3d58 e864db95
 ````
 
 #### withdraw_hez3_0007.zkey
 ````
-072543ae 5b51b2e7 4ea1ce56 a8afde52
-B58ad938 06d595ab 8512880f bb5aa592
-Bf765ec5 e2e58948 6d23bd5c D4ca9f88
-7eacb995 51779402 c46f25f8 9b506184
+7499f5a4 736b5f99 50232528 e962d3cc
+429ccd3e 9809438d f9a8881e a2baf5b8
+5a43e2e3 3dd26afe 53e01b85 c32fc761
+2278d317 b8b8a8f1 0a2c6dfd 1dccbc94
 ````
 
-You can see the details of the ceremony [here](https://github.com/hermeznetwork/phase2ceremony_3).
+You can see the details of the ceremony [here](https://github.com/hermeznetwork/phase2ceremony_4).
 
 Before calculating the final zkey file, we will apply a random beacon to the three circuits.
 
 Notice that according to [this](https://electriccoin.co/blog/reinforcing-the-security-of-the-sapling-mpc/), a random beacon might not be strictly necessary. Nevertheless, we consider it best practise to do so.
 
-For this, we will apply the result of the round 697500 of [drand](https://drand.love).
+For this, we will apply the result of the round 824700 of [drand](https://drand.love).
 
 Here is the info of the drand chain that will be used:
 
@@ -66,11 +65,11 @@ Here is the info of the drand chain that will be used:
 
 This number is planned to be generated on
 
-Sunday March 21st, 20:37:00 UTC
+Wednesday May 4th 2021, 23:47:00 UTC
 
 Once the number is generated, one should be able to find it here:
 
-[https://drand.cloudflare.com/public/697500](https://drand.cloudflare.com/public/100000)
+[https://drand.cloudflare.com/public/824700](https://drand.cloudflare.com/public/824700)
 
 or here:
 
@@ -96,15 +95,15 @@ With snarkjs@0.3.60:
 Commit: [https://github.com/iden3/snarkjs/commit/b335c01e988de31d59d71813a4137754711c8c85](https://github.com/iden3/snarkjs/commit/b335c01e988de31d59d71813a4137754711c8c85)
 
 ````bash
-snarkjs zkey beacon circuit_1912_32_256_60_hez3_0007.zkey circuit_1912_32_256_60_hez3_final.zkey [beaconHash] 10
-snarkjs zkey beacon circuit_344_32_256_60_hez3_0007.zkey circuit_1912_32_256_60_hez3_final.zkey [beaconHash] 10
-snarkjs zkey beacon withdraw_hez3_0007.zkey circuit_1912_32_256_60_hez3_final.zkey [beaconHash] 10
+snarkjs zkey beacon circuit_2048_32_256_60_hez4_0006.zkey circuit_2048_32_256_64_hez4_final.zkey [beaconHash] 10
+snarkjs zkey beacon circuit_400_32_256_60_hez4_0006.zkey circuit_400_32_256_60_hez4_final.zkey [beaconHash] 10
+snarkjs zkey beacon withdraw_hez4_0006.zkey withdraw_hez4_final.zkey [beaconHash] 10
 ````
 
 
 After this, we will generate the 3 solidity verification contracts this way:
 ````bash
-snarkjs zkey export solidityverifier circuit_1912_32_256_60_hez3_final.zkey verifier1912.sol
-snarkjs zkey export solidityverifier circuit_344_32_256_60_hez3_final.zkey verifier344.sol
-snarkjs zkey export solidityverifier withdraw_hez3_final.zkey verifier_withdraw.sol
+snarkjs zkey export solidityverifier circuit_2048_32_256_60_hez4_final.zkey verifier2048.sol
+snarkjs zkey export solidityverifier circuit_400_32_256_60_hez4_final.zkey verifier400.sol
+snarkjs zkey export solidityverifier withdraw_hez4_final.zkey verifier_withdraw.sol
 ````
