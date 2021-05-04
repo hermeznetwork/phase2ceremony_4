@@ -19,7 +19,10 @@
 
 **Hash of the circuit:**
 ````
-TODO
+ab79af62 13888d71 8e5748fb 5eb7a0c9
+76d45799 29f12c7e 207f0193 65936ed8
+45154b61 86e657f9 1785c5a6 820986b9
+6b2d296f 15fadbb4 05d2b67c 2a875f63
 ````
 
 ---
@@ -54,11 +57,14 @@ TODO
     00000000 00000000 00000000 00000000
 ````
 
-## 344 TXs Circuit
+## 400 TXs Circuit
 
 **Hash of the circuit:**
 ````
-TODO
+c1ca41db 5e0efe0f 4b379819 7150bf1d
+7c12c3a5 0a14d395 6076ca0f 951f88e0
+48798727 ca0dc850 394be4ff 5e555830
+16ffb04b 41ef718c b83b76c3 4456d8d7
 ````
 
 ---
