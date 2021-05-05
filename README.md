@@ -35,6 +35,31 @@ For verifying the ceremony see: [VERIFY.md](VERIFY.md)
 | [0006_vfactorial](https://github.com/hermeznetwork/phase2ceremony_4/tree/main/0006_vfactorial) | [circuit-2048-32-256-64_hez4_0006.zkey](https://hermez.s3-eu-west-1.amazonaws.com/circuit-2048-32-256-64_hez4_0006.zkey)     | [jaszmin](https://keybase.io/jaszmin)  | `292012a3 7a424619`<br>`65128053 3c781473`<br>`7d23e886 fb395e7e`<br>`cbe138ed 1176f101`<br>`aa852c48 207932c1`<br>`ce2e26f5 26347013`<br>`56d690f1 0082679e`<br>`6f8360fa cc63d4a5` |
 
 
+##### Beacon Random
+
+````
+c62e6422dd91eeac7d2e0ad2af0fd904b73bb3095d8756f88a7a01bda97e639e
+````
+
+##### Beacon Contribution
+
+````
+2b067ab9 9655ba44 ac6bcf2a 3c67b97f
+83e2030e e501b94b 5645966e 3c8c5180
+9bff20fb 2e3f608a 723890b4 84527e49
+07744aa6 d400994c e26148e3 b5c0c11a
+````
+
+##### [circuit-400-32-256-64_hez4_final.zkey](https://hermez.s3-eu-west-1.amazonaws.com/circuit-400-32-256-64_hez4_final.zkey)
+
+b2sum:
+````
+9507fda9 5038ed4f f71f5dbd 4b04f1cd
+64d918b6 a3268688 25a2cd35 e79aec06
+f71ccb0e 686fcdaa a05a9401 64092efe
+024804da e6373186 64ee20fa 21a853ca
+````
+
 ### 400 Tx Circuit
 
 | Atestation<br>&nbsp; | Contribution File<br>&nbsp; | Contributor<br>&nbsp; | Contribution Hash &nbsp; &nbsp; &nbsp; &nbsp; |
@@ -46,6 +71,34 @@ For verifying the ceremony see: [VERIFY.md](VERIFY.md)
 | [0004_jarrad](https://github.com/hermeznetwork/phase2ceremony_4/tree/main/0004_jarrad) | [circuit-400-32-256-64_hez4_0004.zkey](https://hermez.s3-eu-west-1.amazonaws.com/circuit-400-32-256-64_hez4_0004.zkey)     | [jarradhope](https://keybase.io/jarradhope)  | `d303176d 514e4d87`<br>`101134ae 4b283968`<br>`1a2680fb 17efcaf9`<br>`d1e79bfc 15447dc3`<br>`c1160338 2722e928`<br>`50e6a412 cc67e535`<br>`95d77b2f 1a2721ed`<br>`81a0b345 3a5ad1d8` |
 | [0005_kobigurk](https://github.com/hermeznetwork/phase2ceremony_4/tree/main/0005_kobigurk) | [circuit-400-32-256-64_hez4_0005.zkey](https://hermez.s3-eu-west-1.amazonaws.com/circuit-400-32-256-64_hez4_0005.zkey)     | [kobigurk](https://keybase.io/kobigurk)  | `96558856 866135c4`<br>`83591629 5e337f93`<br>`ea3f9dc0 82b426d7`<br>`58a9ab72 cda3d3c6`<br>`d284be72 74b1fe27`<br>`86e9f57c 10e7ad42`<br>`5f6b29da 01b5cb63`<br>`380a1086 cff72ddd` |
 | [0006_vfactorial](https://github.com/hermeznetwork/phase2ceremony_4/tree/main/0006_vfactorial) | [circuit-400-32-256-64_hez4_0006.zkey](https://hermez.s3-eu-west-1.amazonaws.com/circuit-400-32-256-64_hez4_0006.zkey)     | [jaszmin](https://keybase.io/jaszmin)  | `34357b05 7fd10bbf`<br>`3c6ec208 309be514`<br>`f9dff440 625f7806`<br>`d6c09f81 8d41c3ae`<br>`c57fac73 2af12f5b`<br>`8bab97b3 f73eda84`<br>`9b18ccbb cb60acc0`<br>`7dbee897 30d64abe` |
+
+
+##### Beacon Random
+
+````
+c62e6422dd91eeac7d2e0ad2af0fd904b73bb3095d8756f88a7a01bda97e639e
+````
+
+##### Beacon Contribution
+
+````
+f88d4d4b 63b57078 b3bb1818 2eb457c6
+a9e83866 c753b04c f6bc2f97 c6f92eab
+9ad36885 9714ea21 ee1dbfbd 20950d9f
+a6919b1a 4159fa98 66b0be88 227ae112
+````
+
+##### [circuit-2048-32-256-64_hez4_final.zkey](https://hermez.s3-eu-west-1.amazonaws.com/circuit-2048-32-256-64_hez4_final.zkey)
+
+b2sum:
+````
+8c88ea48 2977e4c8 9351161a 445a4d67
+3802a552 227f12d2 2aeed0be 169aecca
+b2e1eb65 49ad947f 91e3fa64 90e2f9b4
+56be94b7 04eb90bb 4d672c63 d8b27470
+````
+
+
 
 ### WithdrawCircuit
 
@@ -59,3 +112,27 @@ For verifying the ceremony see: [VERIFY.md](VERIFY.md)
 | [0005_kobigurk](https://github.com/hermeznetwork/phase2ceremony_4/tree/main/0005_kobigurk) | [withdraw_hez4_0005.zkey](https://hermez.s3-eu-west-1.amazonaws.com/withdraw_hez4_0005.zkey)     | [kobigurk](https://keybase.io/kobigurk)  | `76cd6209 28ef25f6`<br>`36a14231 9d35cc33`<br>`cadfd2ef d9038b20`<br>`e4fde544 0ae3b979`<br>`4383e27f 7f672e69`<br>`10858b91 28e4edbf`<br>`07b788e0 34431e24`<br>`8d217f57 49ba8092` |
 | [0006_vfactorial](https://github.com/hermeznetwork/phase2ceremony_4/tree/main/0006_vfactorial) | [withdraw_hez4_0006.zkey](https://hermez.s3-eu-west-1.amazonaws.com/withdraw_hez4_0006.zkey)     | [jaszmin](https://keybase.io/jaszmin)  | `e80002a1 951eadb9`<br>`c03fb240 15fef49a`<br>`7d4c167b aee36142`<br>`b4d7db87 4d097baf`<br>`39339ec2 f0d5bfff`<br>`4947c42e 273de1cd`<br>`a0fd9f1e 5f0c8230`<br>`379c556d bdd2dafd` |
 
+##### Beacon Random
+
+````
+c62e6422dd91eeac7d2e0ad2af0fd904b73bb3095d8756f88a7a01bda97e639e
+````
+
+##### Beacon Contribution
+
+````
+9bf27c3b 4866e9c9 caedd8f4 ea8142aa
+c50d9734 4700f3d7 45a4cc69 8079c4f7
+1d4cee78 43121a34 9ee64dea 1c7148a3
+1694b6fb 4c8f6ddb 5d33824b f5e30c54
+````
+
+##### [withdraw_hez4_final.zkey](https://hermez.s3-eu-west-1.amazonaws.com/withdraw_hez4_final.zkey)
+
+b2sum:
+````
+95792ba3 170d380d db3811a0 dafdbe2f
+707b48b7 fc49193c ad3138ba 2956a5dd
+7340b6e7 d3d79192 bc94f361 f6b91771
+51eb3fc1 19016f05 1b26c2e9 e7494564
+````

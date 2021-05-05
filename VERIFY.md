@@ -362,10 +362,10 @@ As far as there is a single attestatation you trust, you can considere the cerem
 You can see also the random beacon of the three circuits is:
 
 ````
-TODO
+c62e6422dd91eeac7d2e0ad2af0fd904b73bb3095d8756f88a7a01bda97e639e
 ````
 
-This number is the drand round 824300 which you can find [here](https://drand.cloudflare.com/public/824300)
+This number is the drand round 824700 which you can find [here](https://drand.cloudflare.com/public/824700)
 
 The procedure was anaunced [here](https://etherscan.io/tx/0xb8534a5adb2c6e81623ad77b18e9c1107594f65290ee199549f786b7c368de27): on May 4th, 2021 21:37 UTC
 And the beacon random wos generated on May 4th, 2021 23:47 UTC
